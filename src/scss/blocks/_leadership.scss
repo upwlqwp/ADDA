@@ -1,0 +1,36 @@
+// strateg
+
+.strateg{
+
+&__list{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+&__item--meet{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-right: auto;
+    align-self: stretch;
+background-color: thistle;
+}
+
+&__text--meet{
+    position: absolute;
+
+}
+
+&__link--meet{
+   left: 0;
+    position: absolute;
+}
+
+&__img--meet{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    display: block;
+}
+}

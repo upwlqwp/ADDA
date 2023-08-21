@@ -1,0 +1,261 @@
+.project {
+    padding: 100px 0 300px;
+
+    &__info-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: 200px;
+      line-height: 100%;
+      text-transform: uppercase;
+      margin-bottom: 88px;
+    }
+  
+    &__info-text {
+      margin-left: auto;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 100%;
+      letter-spacing: -1.5px;
+      max-width: 660px;
+    }
+  }
+  
+  .website {
+    padding-bottom: 170px;
+
+    &__wrapper{
+      position: relative;
+    }
+  
+    &__img {
+      width: 100%;
+      margin-bottom: 18px;
+    }
+  
+    &__img-text {
+      z-index: 8;
+      position: absolute;
+      top: 187px;
+  right: 87px;
+    }
+    &__text {
+      padding-top: 80px;
+      margin-left: auto;
+      max-width: 846px;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 100%;
+      letter-spacing: -1.5px;
+    }
+  }
+  
+  // we-worked
+  
+  .we-worked {
+    &__wrapper {
+   
+     display: flex;
+    
+    }
+  
+    &__title {
+      align-self: flex-start;
+      max-width: 630px;
+      font-weight: 800;
+      font-size: 200px;
+      line-height: 73%;
+      letter-spacing: -4px;
+    }
+  
+    &__link {
+align-self: flex-end;
+      color: #1b1b1b;
+      background-color: #f1ede8;
+      //padding: 0 10px;
+      margin-bottom:120px;
+    }
+  
+    &__item {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 100%;
+      letter-spacing: -1.5px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  // structure
+  
+  .structure {
+    padding: 100px 0;
+  
+    &__table {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-end;
+      margin-left: auto;
+      margin-bottom: 120px;
+      width: fit-content;
+    }
+  
+    &__table-text {
+      display: inline-block;
+      align-self: center;
+      margin-top: 20px;
+      margin-right: auto;
+    }
+  
+    &__info {
+      margin-left: auto;
+    }
+  
+    &__text {
+      max-width: 1102px;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 100%;
+      margin-bottom: 46px;
+
+    }
+  
+    &__link {
+      padding: 12px 80px;
+      border: 1px solid #f1ede8;
+      border-radius: 100px;
+    }
+  }
+  
+  //video-of-about
+  .video-of-about {
+    padding-bottom: 176px;
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+  
+    &__link {
+      position: absolute;
+      bottom: 57px;
+      right: 15%;
+    }
+  
+    &__text {
+      top: 137px;
+      max-width: 669px;
+      right: 280px;
+      position: absolute;
+    }
+  }
+  
+  // final
+  .final {
+
+    width: 100%;
+    border-top: 1px solid #f1ede8;
+    border-bottom: 1px solid #f1ede8;
+  }
+  
+  // our-solution
+  
+  .our-solution {
+    padding-bottom: 125px;
+    &__title {
+      font-weight: 800;
+      font-size: 200px;
+      line-height: 73%;
+      max-width: 765px;
+      letter-spacing: -4px;
+    }
+  
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(1, 311px, 641px);
+      gap: 100px;
+    }
+  
+    &__item--competition {
+      grid-row-end: 1;
+      max-width: 311px;
+    }
+  
+    &__item--target {
+      grid-row-end: 2;
+      max-width: 641px;
+      margin: 0 auto;
+    }
+  
+    &__item--identity {
+      grid-row-end: 3;
+      max-width: 459px;
+      margin: 0 auto;
+    }
+  
+    &__item--design {
+      grid-row-end: 5;
+      margin-left: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    &__text--design {
+      max-width: 381px;
+    }
+  
+    &__link {
+      margin-left: 150px;
+    }
+  
+    &__text {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 100%;
+      letter-spacing: -1.5px;
+    }
+  }
+  
+  // video-of-animated
+  
+  .video-of-animated {
+    padding: 140px 0;
+    border-bottom: 1px solid #f1ede8;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    &__item {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 80px;
+      position: relative;
+    }
+  
+    &__text {
+      top: 48%;
+      right: 27px;
+      position: absolute;
+    }
+  
+    &__poster {
+      display: block;
+      margin: -150px auto 11px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 550px;
+      height: 472px;
+      background-color: #f1ede8;
+    }
+  
+    &__poster-text {
+      display: block;
+      margin: 0 120px;
+    }
+  }

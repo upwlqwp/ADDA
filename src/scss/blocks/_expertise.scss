@@ -1,0 +1,142 @@
+.expertise {
+  padding: 77px 0 100px;
+  border-bottom: 1px solid #f1ede8;
+
+  &__item {
+    position: relative;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  &__text-working {
+    max-width: 483px;
+    margin: 0 auto;
+  }
+
+  &__text-having {
+    max-width: 388px;
+    margin-bottom: 70px;
+  }
+
+  &__text-fintech {
+    max-width: 866px;
+    margin-left: auto;
+    margin-bottom: 43px;
+  }
+
+  &__img {
+    margin-left: 50px;
+  }
+
+  &__link {
+    top: 50px;
+    right: 20%;
+    position: absolute;
+    background-color: #f1ede8;
+    color: #121212;
+  }
+}
+
+// services
+.services {
+  padding: 100px 0 160px;
+  border-bottom: 1px solid #f1ede8;
+
+  &__title {
+    font-weight: 800;
+    font-size: 300px;
+    line-height: 100%;
+    width: 100%;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 73%;
+    letter-spacing: -1.5px;
+  }
+
+  &__link {
+    background-color: #f1ede8;
+    color: #121212;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 130px;
+  }
+
+  &__item-link {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  .consulting__wrapper {
+    display: flex;
+    justify-content: space-between;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    margin-left: auto;
+  }
+}
+
+
+// process
+
+.process{
+  padding: 130px 0 100px;
+  border-bottom: 1px solid #F1EDE8;
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__headline{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title{
+    margin-bottom: 79px;
+    font-weight: 800;
+font-size: 200px;
+line-height: 73%;
+letter-spacing: -4px;
+  }
+
+
+  &-info__title{
+    font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -1.5px;
+  }
+
+ 
+
+
+  &-info__item-meet{
+    max-width: 880px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    margin-bottom: 120px;
+  }
+
+  &-info__item-consulting{
+    margin-bottom: 200px;
+  }
+
+
+  &-info__item-kickstart{
+    max-width: 780px;
+    margin-left: auto;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+   
+  }
+}
